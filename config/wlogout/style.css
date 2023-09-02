@@ -1,0 +1,80 @@
+* {
+  background-image: none;
+}
+
+window {
+  background-color: rgba(17, 17, 27, 0.6);
+}
+
+button {
+  color: #fff;
+  background-color: rgba(17, 17, 27, 0.0);
+  outline-style: none;
+  border: none;
+  border-width: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10%;
+  border-radius: 20px;
+  box-shadow: none;
+  text-shadow: none;
+  animation: gradient_f 20s ease-in infinite;
+}
+
+button:hover {
+  color: #2b5aff;
+  background-size: 25%;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+  animation: gradient_f 20s ease-in infinite;
+  transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682);
+}
+
+#lock {
+  background-image: image(url("./assets/lock.svg"));
+}
+
+#lock:hover {
+  background-image: image(url("./assets/lock-hover.svg"));
+}
+
+#logout {
+  background-image: image(url("./assets/logout.svg"));
+}
+
+#logout:hover {
+  background-image: image(url("./assets/logout-hover.svg"));
+}
+
+#shutdown {
+  background-image: image(url("./assets/shutdown.svg"));
+}
+
+#shutdown:hover {
+  background-image: image(url("./assets/shutdown-hover.svg"));
+}
+
+#reboot {
+  background-image: image(url("./assets/reboot.svg"));
+}
+
+#reboot:hover {
+  background-image: image(url("./assets/reboot-hover.svg"));
+}
+
+#suspend {
+  background-image: image(url("./assets/suspend.svg"));
+}
+
+#suspend:hover {
+  background-image: image(url("./assets/suspend-hover.svg"));
+}
+
+#hibernate {
+  background-image: image(url("./assets/hibernate.svg"));
+}
+
+#hibernate:hover {
+  background-image: image(url("./assets/hibernate-hover.svg"));
+}
